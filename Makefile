@@ -114,7 +114,8 @@ LIBFT_SOURCES_LIST = \
 	ft_strsplit_free.c\
 	ft_strsplit_len.c\
 	ft_wcslen.c\
-	ft_pow_int.c
+	ft_pow_int.c\
+	ft_atoi32.c
 LIBFT_SOURCES = $(addprefix $(LIBFT_SOURCES_DIRECTORY), $(LIBFT_SOURCES_LIST))
 
 # LIBFT_OBJECTS
